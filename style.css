@@ -65,8 +65,11 @@ body * {
 
 /*switch*/
 .light #switch button{
-right: 0;
+/*
+  right: 0;
 left: initial;
+*/
+animation: slide-in 0.4s forwards; /*forward p/ manter as propriedades, ou seja se manter no to, e nao retonar ao from */
 }
 
 #switch {
@@ -85,7 +88,11 @@ left: initial;
   top: 50%;
   left: 0;
   z-index: 1;
-  transform: translateY(-50%)
+  transform: translateY(-50%);
+  animation: slide-back .2s
+}
+#switch button:hover {
+  outline: 8px solid var(--highlight-color);
 }
 
 #switch span {
@@ -164,3 +171,22 @@ footer {
     --bg-url: url(./assets/bg-desktop-light.jpg);
   }
  }
+
+ /*animation - move o elemento de 0 a 50%*/
+ @keyframes slide-in {
+  from {
+    left: 0;
+  }
+  to {
+    left:50%;
+  }
+ }
+  @keyframes slide-back {
+    from {
+      left: 50%;
+    }
+    to {
+      left:0;
+    }
+  }
+ 
