@@ -1,8 +1,7 @@
-# Projeto-agregador-links
 <h1 align="center"> DevLinks </h1>
 
 <p align="center">
- Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB.
+Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB.
 </p>
 
 <p align="center">
@@ -19,7 +18,7 @@
 <br>
 
 <p align="center">
-  <img alt="Projeto DevLinks" src="./preview.jpg" width="100%">
+  <img alt="Projeto Devlinks" src=".github/preview.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -33,7 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O DevLinks é um agregador de links para usar como um cartão de visitas online.
+O DevLinks é um agregador de links para usar como cartão de visitas online.
 
 ## 🔖 Layout
 
